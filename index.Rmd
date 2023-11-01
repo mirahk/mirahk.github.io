@@ -4,11 +4,6 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
 ---
 
 [Academic and Professional Experience](experience.html)
-
-## Links to other websites
-* [Github] (https://github.com/mirahk)
-* [linkedIn] (https://www.linkedin.com/in/mirah-koota)
