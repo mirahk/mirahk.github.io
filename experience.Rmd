@@ -1,10 +1,12 @@
 ---
-title: "Mirah Koota's website"
+title: "Academic and Proffesional Experience"
 output: 
   html_document:
     toc: true
     toc_float: true
     theme: cerulean
 ---
+
+
 [Github] (https://github.com/mirahk)
 [linkedIn] (https://www.linkedin.com/in/mirah-koota)

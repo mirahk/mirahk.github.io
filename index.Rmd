@@ -6,7 +6,8 @@ output:
     toc_float: true
     theme: cerulean
 ---
-[Academic and Professional Experience] (experience.html)
+
+[Academic and Professional Experience](experience.html)
 
 ## Links to other websites
 * [Github] (https://github.com/mirahk)
