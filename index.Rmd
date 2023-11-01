@@ -6,5 +6,8 @@ output:
     toc_float: true
     theme: cerulean
 ---
-[Github] (https://github.com/mirahk)
-[linkedIn] (https://www.linkedin.com/in/mirah-koota)
+[Academic and Professional Experience] (experience.html)
+
+## Links to other websites
+* [Github] (https://github.com/mirahk)
+* [linkedIn] (https://www.linkedin.com/in/mirah-koota)
