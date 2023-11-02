@@ -5,5 +5,8 @@ output:
     toc: true
     toc_float: true
 ---
+Welcome to my website!
 
-[Academic and Professional Experience](experience.html)
+I am currently a part-time MS in Biostatisitics student at Columbia University and full-time clinical scientist at Merck. I graduated from Bucknell University in 2021 with a BS is Chemical Engineering. Outside of work and school, I enjoy art museums and galleries, spending time with my friends and family, and cooking:)
+
+
