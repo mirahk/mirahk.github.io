@@ -22,7 +22,6 @@ nyoaa_df = read_csv("./Data/nynoaadat.csv") %>%
     snow != 0,
     snwd != 0
   )
-
 set.seed(222)
 random_nyoaa_df = nyoaa_df[sample(nrow(nyoaa_df), 1000),]
 ```

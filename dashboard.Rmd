@@ -12,16 +12,17 @@ library(tidyverse)
 library(plotly)
 ```
 ```{r}
-nyoaa_df = read_csv("./Data/nynoaadat.csv") %>% 
-  janitor::clean_names() %>% 
+nyoaa_df = read_csv("./Data/nynoaadat.csv")%>% 
+  janitor::clean_names()%>% 
   drop_na() %>% 
   mutate(date = as.Date(date)) %>% 
   filter(
     prcp != 0,
     snow != 0,
     snwd != 0
-  )
-
+  ) %>% 
+  mutate(month = format(date, "%m"),
+         year = format(date, "%y"))
 set.seed(222)
 random_nyoaa_df = nyoaa_df[sample(nrow(nyoaa_df), 1000),]
 ```
@@ -29,7 +30,7 @@ random_nyoaa_df = nyoaa_df[sample(nrow(nyoaa_df), 1000),]
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Minimum Temperature over time and parcipitation
 
 ```{r}
 random_nyoaa_df %>% 
@@ -44,12 +45,18 @@ Column {data-width=350}
 ### Chart B
 
 ```{r}
-
+random_nyoaa_df %>% 
+  plot_ly (
+    x =~ month, y=~snwd, type = "box"
+  )
 ```
 
 ### Chart C
 
 ```{r}
-
+random_nyoaa_df %>% 
+  plot_ly (
+    x =~ year, y=~prcp, type = "bar"
+  )
 ```
 
