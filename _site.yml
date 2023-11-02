@@ -10,7 +10,7 @@ navbar:
     - icon: fa-github fa-lg
       href: https://github.com/mirahk
     - text: "Homework 4 P 2"
-      href: Plotly.html
+      href: dashboard.html
 output:
   html_document:
     theme: cerulean

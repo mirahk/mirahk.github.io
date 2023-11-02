@@ -1,18 +1,17 @@
 ---
-title: "Homework 4 Problem 2"
+title: "Homework 4 P 2"
 output: 
-  html_document:
-    toc: true
-    toc_float: true
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
 ---
 
-## Looking at the NYOAA Data
-
-```{r}
+```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(plotly)
-library(rnoaa)
-
+```
+```{r}
 nyoaa_df = read_csv("./Data/nynoaadat.csv") %>% 
   janitor::clean_names() %>% 
   drop_na() %>% 
@@ -27,12 +26,30 @@ set.seed(222)
 random_nyoaa_df = nyoaa_df[sample(nrow(nyoaa_df), 1000),]
 ```
 
-## Scatterplot
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
 
 ```{r}
 random_nyoaa_df %>% 
   plot_ly(
     x = ~date, y = ~tmin, type = "scatter", mode = "markers",
     color = ~prcp)
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+
+```
+
+### Chart C
+
+```{r}
+
 ```
 
