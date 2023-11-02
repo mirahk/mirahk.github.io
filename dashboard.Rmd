@@ -42,7 +42,7 @@ random_nyoaa_df %>%
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Distribution of snow depth by month
 
 ```{r}
 random_nyoaa_df %>% 
@@ -51,7 +51,7 @@ random_nyoaa_df %>%
   )
 ```
 
-### Chart C
+### Cumulative parcipication by year
 
 ```{r}
 random_nyoaa_df %>% 
