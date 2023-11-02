@@ -42,16 +42,16 @@ research milestones, compiling an onboarding guide, creating a welcome video, an
   *Researched and presented to leadership on minority enrollment in clinical trials and discussed 4 ways of increasing  minority recruitment.
   *Drafted and reviewed the adjudication charter for a cardiovascular phase 2/3 clinical trial and assisted with the  medical monitoring of a neurology clinical trial using JReview.
 
-##Johnson & Johnson, Ethicon Somerville, NJ 
+## Johnson & Johnson, Ethicon Somerville, NJ 
 
-###Product Performance Evaluation Engineering Intern May 2018-Aug 2018, May 2019-Aug 2019
+### Product Performance Evaluation Engineering Intern May 2018-Aug 2018, May 2019-Aug 2019
   * Conducted a experimental study, wrote a research paper, and presented on the topography and tensile strength of 120 suture samples.
   * Produced and executed a GMP Operational Protocol for the validation and assessment of process controls of water baths with a ±0.1˚C tolerance using Resistance Temperature Detectors to conduct temperature mapping.
   * Examined R&D data collection and experimental design in order to establish a R&D electronic laboratory notebook
   * Authored a test method to assess adhesive strength of Vistaseal™ compared to 2 competing fibrin sealants.
   * Completed 3 GLP adhesive strength tests and statistical data analysis for the Performance Evaluation and Biosurgery departments to be used for commercial claims and presented official test results to marketing representatives.
 
-#PROJECTS:
+# PROJECTS:
 
 ## Mather Research Group-Undergraduate Research and Honors Thesis, Bucknell University Aug 2019-May 2021 
 
